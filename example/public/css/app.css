@@ -1,0 +1,31 @@
+/**
+ * pd-ui
+ */
+/**
+ * pd-ui-dropdown
+ */
+/**
+ * Directive: uiDropdown
+ */
+.pd-dropdown {
+  display: inline-block;
+  position: relative; }
+
+/**
+ * Directive: uiDropdownContent
+ */
+.pd-dropdown-content {
+  position: absolute;
+  -webkit-transform: translateX(-50%);
+      -ms-transform: translateX(-50%);
+          transform: translateX(-50%);
+  left: 50%;
+  z-index: 1; }
+
+/**
+ * Directive: uiDropdownHandle
+ */
+.languages {
+  background: red;
+  width: 500px;
+  height: 200px; }

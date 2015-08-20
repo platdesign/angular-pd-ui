@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>pd.ui</title>
+	<script type="text/javascript" src="/public/js/vendor.js"></script>
+	<link rel="stylesheet" type="text/css" href="/public/css/app.css">
+</head>
+<body>
+
+	<div ng-app="app">
+
+
+
+		<div ng-init="test = 123; a = {}">
+
+
+
+			<pd-dropdown>
+				<pd-dropdown-handle>Languages</ui-dropdown-handle>
+
+				<pd-dropdown-content>
+
+					<div class="languages">
+
+					</div>
+
+				</pd-dropdown-content>
+			</pd-dropdown>
+
+
+			<pd-dropdown>
+				<pd-dropdown-handle>
+					<input type="text" ng-model="a.a">
+				</pd-dropdown-handle>
+
+				<pd-dropdown-content>
+					{{a.a}}
+				</pd-dropdown-content>
+			</pd-dropdown>
+
+
+		</div>
+
+
+	</div>
+
+	<script type="text/javascript" src="/public/js/app.js"></script>
+
+</body>
+</html>
