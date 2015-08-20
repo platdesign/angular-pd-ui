@@ -1,6 +1,6 @@
 #angular-pd-ui
 
-A project by platdesign.de
+platdeisgn angular ui suite
 
 
 #Install
