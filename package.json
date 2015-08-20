@@ -2,7 +2,7 @@
   "name": "angular-pd-ui",
   "description": "platdesign angular ui suite",
   "author": "Christian Blaschke <mail@platdesign.de>",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "dependencies": {},
   "repository": "https://github.com/platdesign/angular-pd-ui",
   "devDependencies": {
